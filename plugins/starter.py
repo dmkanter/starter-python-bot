@@ -28,7 +28,7 @@ def process_message(data):
     elif p_bot_joke.match(data['text']):
         outputs.append([data['channel'], "Why did the python cross the road?"])
         outputs.append([data['channel'], "__typing__", 5])
-        outputs.append([data['channel'], "To eat the chicken on the other side! :laughing:"])
+        outputs.append([data['channel'], "To eat the ruby on the other side! :laughing:"])
     elif p_bot_attach.match(data['text']):
         outputs.append([data['channel'], "Sorry, I can't do this yet. :disappointed:"])
     elif p_bot_help.match(data['text']):
